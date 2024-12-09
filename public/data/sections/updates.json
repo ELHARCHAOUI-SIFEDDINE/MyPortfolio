@@ -1,0 +1,81 @@
+{
+  "locales": {
+    "en": {
+      "title": "Life recently",
+      "title_menu": "Updates",
+      "title_long_prefix": "Take a look at my",
+      "title_long": "Recent **Updates**"
+    },
+    "fr": {
+      "title": "Vie Récente",
+      "title_menu": "Mises à Jour",
+      "title_long_prefix": "Découvrez mes",
+      "title_long": "Dernières **Mises à Jour**"
+    }
+  },
+  "articles": [
+    {
+      "id": "fun_facts",
+      "component": "ArticleServices",
+      "config": {},
+      "locales": {},
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-tablet-screen-button",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "18",
+              "info": "Apps published"
+            },
+
+            "fr": {
+              "title": "18",
+              "info": "Applications publiées"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-star",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "70+",
+              "info": "Stars on GitHub"
+            },
+
+            "fr": {
+              "title": "70+",
+              "info": "Étoiles sur GitHub"
+            }
+          }
+        },
+
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-diagram-project",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "title": "18",
+              "info": "Open-source projects"
+            },
+
+            "fr": {
+              "title": "18",
+              "info": "Projets open-source"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

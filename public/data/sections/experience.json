@@ -1,0 +1,103 @@
+{
+  "locales": {
+    "en": {
+      "title": "Experience",
+      "title_long_prefix": "Summary of my",
+      "title_long": "**Work** Experience"
+    },
+
+    "fr": {
+      "title": "Expérience",
+      "title_long_prefix": "Résumé de mon",
+      "title_long": "Parcours **Professionel**"
+    }
+  },
+  "articles": [
+    {
+      "id": "work",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+      "items": [
+        {
+          "icon": {
+            "img": "images/pictures/odoo.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "06/01/2024",
+            "end": "09/01/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**Odoo** Developer",
+              "info": "Freelance",
+              "text": "Worked on developing and customizing Odoo modules, optimizing business workflows and integrating various features for client needs. Focused on creating a user-friendly interface and enhancing performance.",
+              "tags": ["Odoo", "Python", "XML", "PostgreSQL", "ERP"]
+            },
+
+            "fr": {
+              "title": "Développeur **Odoo**",
+              "info": "Freelance",
+              "text": "J'ai travaillé sur le développement et la personnalisation des modules Odoo, optimisant les flux de travail des entreprises et intégrant diverses fonctionnalités pour répondre aux besoins des clients. Mon travail s'est concentré sur la création d'une interface utilisateur et l'amélioration des performances.",
+              "tags": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/react.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "10/01/2024",
+            "end": "12/01/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**React** Developer",
+              "info": "Freelance",
+              "text": "Developed dynamic and responsive user interfaces using React.js for a variety of projects. Focused on building scalable and maintainable frontend architectures, while integrating with backend services and APIs.",
+              "tags": ["React", "JavaScript", "Redux", "CSS", "Node.js"]
+            },
+
+            "fr": {
+              "title": "Développeur **React**",
+              "info": "Freelance",
+              "text": "J'ai développé des interfaces utilisateur dynamiques et réactives en utilisant React.js pour divers projets. Mon objectif était de construire des architectures frontend évolutives et maintenables, tout en intégrant des services backend et des APIs.",
+              "tags": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/Laravel.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "12/01/2024",
+            "end": "now"
+          },
+          "locales": {
+            "en": {
+              "title": "**Laravel** Developer",
+              "info": "Freelance",
+              "text": "Currently working as a Laravel developer, building full-stack applications with complex database structures. Focusing on creating secure, efficient, and scalable backend systems while working with modern PHP and Laravel features.",
+              "tags": ["Laravel", "PHP", "MySQL", "MVC", "RESTful APIs"]
+            },
+
+            "fr": {
+              "title": "Développeur **Laravel**",
+              "info": "Freelance",
+              "text": "Actuellement en tant que développeur Laravel, je construis des applications full-stack avec des structures de base de données complexes. Je me concentre sur la création de systèmes backend sécurisés, efficaces et évolutifs tout en utilisant les fonctionnalités modernes de PHP et Laravel.",
+              "tags": null
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

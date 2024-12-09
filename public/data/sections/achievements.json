@@ -1,0 +1,159 @@
+{
+  "locales": {
+    "en": {
+      "title_menu": "Achievements",
+      "title_long_prefix": "Here are my",
+      "title_long": "Career **Achievements**"
+    },
+
+    "fr": {
+      "title_menu": "Réalisations",
+      "title_long_prefix": "Voici",
+      "title_long": "Mes **Réalisations**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "certifications",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {
+        "en": { "title": "Certifications" },
+        "fr": { "title": "Certifications" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-js",
+            "faColors": { "bg": "#F7DF1E", "fill": "#000" }
+          },
+          "dates": {
+            "start": "01/01/2023",
+            "end": null
+          },
+          "links": [
+            {
+              "string": "see_certification",
+              "href": "https://www.credly.com/badges/a6bbd605-1978-471a-bfb4-f93208aa82eb/public_url"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "**Cisco Networking Academy**",
+              "text": "JavaScript Programming Fundamentals Certification"
+            },
+            "fr": {
+              "text": "Certification Fondamentaux de Programmation JavaScript"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-laptop-code",
+            "faColors": { "bg": "#007bff", "fill": "#FFF" }
+          },
+          "dates": {
+            "start": "02/15/2023",
+            "end": null
+          },
+          "links": [
+            {
+              "string": "see_certification",
+              "href": "https://www.credly.com/badges/2cb5f99c-3591-40fd-8780-29cc0db490a0/public_url"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "**Cisco Networking Academy**",
+              "text": "Advanced JavaScript Programming Techniques"
+            },
+            "fr": {
+              "text": "Techniques Avancées de Programmation JavaScript"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-python",
+            "faColors": { "bg": "#3776AB", "fill": "#FFD43B" }
+          },
+          "dates": {
+            "start": "03/10/2023",
+            "end": null
+          },
+          "links": [
+            {
+              "string": "see_certification",
+              "href": "https://www.credly.com/badges/84406a8d-9104-4921-abe5-822960fd6bb4/public_url"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "**Cisco Networking Academy**",
+              "text": "Python Programming Essentials Certification"
+            },
+            "fr": {
+              "text": "Certification Essentiels de Programmation Python"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-code",
+            "faColors": { "bg": "#28a745", "fill": "#FFF" }
+          },
+          "dates": {
+            "start": "04/20/2023",
+            "end": null
+          },
+          "links": [
+            {
+              "string": "see_certification",
+              "href": "https://www.credly.com/badges/980ffb3c-4857-4aaa-a450-f47803a7d097/public_url"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "**Cisco Networking Academy**",
+              "text": "Advanced Python Programming and Development"
+            },
+            "fr": {
+              "text": "Développement et Programmation Python Avancés"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-network-wired",
+            "faColors": { "bg": "#6f42c1", "fill": "#FFF" }
+          },
+          "dates": {
+            "start": "05/05/2023",
+            "end": null
+          },
+          "links": [
+            {
+              "string": "see_certification",
+              "href": "https://www.credly.com/badges/44ff0164-fd85-4ba2-b039-2ab0c8845bd6/public_url"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "**Cisco Networking Academy**",
+              "text": "Network Infrastructure and Hardware Fundamentals"
+            },
+            "fr": {
+              "text": "Fondamentaux des Infrastructures Réseau et Matériels"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

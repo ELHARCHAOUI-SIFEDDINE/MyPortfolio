@@ -1,0 +1,212 @@
+{
+  "locales": {
+    "en": {
+      "title": "Welcome!",
+      "title_menu": "About me",
+      "title_long_prefix": "Hello...",
+      "title_long": "I'm **EL HARCHAOUI SIF-EDDINE!**"
+    },
+
+    "fr": {
+      "title": "Salut !",
+      "title_menu": "À propos",
+      "title_long_prefix": "Salut...",
+      "title_long": "Je suis **EL HARCHAOUI SIF-EDDINE!**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "contact_list",
+      "component": "ArticleGrid",
+      "config": {
+        "ignorePaddingTop": true,
+        "format": "inline"
+      },
+      "locales": {
+        "en": {},
+        "fr": {}
+      },
+
+      "items": [
+        {
+          "value": "Khemisset – Mor",
+          "links": [{ "href": null }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-city",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "elharchaouisifeddine@gmail.com",
+          "links": [{ "href": "mailto:elharchaouisifeddine@gmail.com" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-envelope",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "@ELHARCHAOUI-SIFEDDINE",
+          "links": [{ "href": "https://github.com/ELHARCHAOUI-SIFEDDINE" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-github",
+            "faColors": { "bg": null, "fill": null }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "short_description",
+      "component": "ArticleInfoBlock",
+      "config": {},
+      "locales": {
+        "en": { "title": "**A little bit** about me..." },
+        "fr": { "title": "**Un peu** à propos de moi..." }
+      },
+
+      "items": [
+        {
+          "icon": {
+            "img": "images/svg/logo.svg",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "text": "<p>I’m a passionate full-stack student from Morocco, currently enhancing my skills in web development. I have experience working with PHP, Laravel, React.js, and Tailwind Css, and I’m always eager to learn new technologies and frameworks.</p><p>As a dedicated learner, I’ve worked on various projects, including school management systems and responsive web applications, which have strengthened my problem-solving and teamwork skills.</p><p>I look forward to collaborating and building something amazing together!</p>"
+            },
+            "fr": {
+              "text": "<p>Je suis un étudiant passionné en développement full-stack originaire du Maroc, en train d'améliorer mes compétences en développement web. J'ai de l'expérience avec PHP, Laravel, React.js et Tailwind Css, et je suis toujours motivé à apprendre de nouvelles technologies et frameworks.</p><p>En tant qu'apprenant engagé, j'ai travaillé sur divers projets, y compris des systèmes de gestion scolaire et des applications web responsives, ce qui a renforcé mes compétences en résolution de problèmes et en travail d'équipe.</p><p>J’ai hâte de collaborer et de créer quelque chose d’extraordinaire ensemble !</p>"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "interests",
+      "component": "ArticleGrid",
+      "config": {
+        "format": "grid"
+      },
+      "locales": {
+        "en": { "title": "Personal **Interests**" },
+        "fr": { "title": "Intérêts **Personnels**" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-laptop-code",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Building Web Applications",
+              "info": "Creating interactive platforms using React.js, Odoo, and PHP, with a focus on user experience and problem-solving."
+            },
+            "fr": {
+              "title": "Création d'Applications Web",
+              "info": "Créer des plateformes interactives en utilisant React.js, Odoo et PHP, avec un accent sur l'expérience utilisateur et la résolution de problèmes."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-chart-bar",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Data Visualization",
+              "info": "Exploring tools to represent complex data clearly and effectively for meaningful insights."
+            },
+            "fr": {
+              "title": "Visualisation de Données",
+              "info": "Explorer des outils pour représenter des données complexes de manière claire et efficace pour des analyses significatives."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-language",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Learning New Languages",
+              "info": "Improving my English and French skills for better communication and collaboration."
+            },
+            "fr": {
+              "title": "Apprentissage des Langues",
+              "info": "Améliorer mes compétences en anglais et en français pour une meilleure communication et collaboration."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-lightbulb",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Innovative Thinking",
+              "info": "Enjoy solving real-world problems by applying creative technical solutions."
+            },
+            "fr": {
+              "title": "Pensée Innovante",
+              "info": "J'aime résoudre des problèmes concrets en appliquant des solutions techniques créatives."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-rocket",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Exploring New Technologies",
+              "info": "Staying updated with emerging tools and frameworks to enhance my projects."
+            },
+            "fr": {
+              "title": "Exploration de Nouvelles Technologies",
+              "info": "Rester informé sur les nouveaux outils et frameworks pour améliorer mes projets."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-users",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Team Collaboration",
+              "info": "Working with diverse teams to share ideas, learn, and build impactful solutions."
+            },
+            "fr": {
+              "title": "Collaboration en Équipe",
+              "info": "Travailler avec des équipes diverses pour partager des idées, apprendre et créer des solutions percutantes."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "locales": {
+    "en": {
+      "title": "Portfolio",
+      "title_long_prefix": "Take a look at",
+      "title_long": "My **Portfolio**"
+    },
+
+    "fr": {
+      "title": "Portfolio",
+      "title_long_prefix": "Découvrez",
+      "title_long": "Mon **Portfolio**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "portfolio",
+      "component": "ArticlePortfolio",
+      "config": {},
+      "locales": {},
+
+      "categories": [
+        {
+          "id": "apps",
+          "locales": {
+            "en": { "singular": "App", "plural": "Apps" },
+            "fr": { "singular": "App", "plural": "Apps" }
+          }
+        },
+        {
+          "id": "websites",
+          "locales": {
+            "en": { "singular": "Website", "plural": "Web" },
+            "fr": { "singular": "Site web", "plural": "Web" }
+          }
+        },
+        {
+          "id": "utilities",
+          "locales": {
+            "en": { "singular": "Utility", "plural": "Utilities" },
+            "fr": { "singular": "Utilitaire", "plural": "Utilitaires" }
+          }
+        }
+      ],
+
+      "items": [
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/project-logo-01.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/SwiftyEats.git"
+            }
+          ],
+
+          "locales": {
+            "en": {
+              "title": "SwiftyEats",
+              "text": "A food delivery app developed with <b>React.js</b>, <b>Tailwind CSS</b>, and APIs, offering navigation between restaurants, displaying dishes, and managing orders.",
+              "tags": ["Food Delivery", "React.js", "Tailwind CSS", "API"]
+            },
+
+            "fr": {
+              "title": "SwiftyEats",
+              "text": "Une application de livraison de repas développée avec <b>React.js</b>, <b>Tailwind CSS</b> et des APIs, offrant une navigation entre les restaurants, l'affichage des plats et la gestion des commandes.",
+              "tags": ["Livraison de repas", "React.js", "Tailwind CSS", "API"]
+            }
+          }
+        },
+
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-02.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/StreamAi.git"
+            }
+          ],
+
+          "media": {
+            "screenshots": {
+              "images": [
+                "images/pictures/project-screenshot-1.webp",
+                "images/pictures/project-screenshot-2.webp",
+                "images/pictures/project-screenshot-3.webp",
+                "images/pictures/project-screenshot-4.webp",
+                "images/pictures/project-screenshot-5.webp"
+              ]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "StreamAi",
+              "text": "A modern and responsive web application that allows users to browse and discover movies. It offers a sleek and intuitive interface, inspired by popular platforms like Netflix.",
+              "tags": ["Movies", "Web App", "Responsive", "UI Design"]
+            },
+            "fr": {
+              "title": "StreamAi",
+              "text": "Application web moderne et responsive permettant aux utilisateurs de parcourir et découvrir des films. Elle offre une interface élégante et intuitive, inspirée des plateformes populaires comme Netflix.",
+              "tags": ["Films", "Application web", "Responsive", "Design UI"]
+            }
+          }
+        },
+
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-03.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/LoanCalculator.git"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "images": [
+                "images/pictures/project-screenshot-6.png",
+                "images/pictures/project-screenshot-7.png",
+                "images/pictures/project-screenshot-8.png"
+              ]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "LoanCalculator",
+              "text": "A responsive application developed with <b>React.js</b> and <b>Tailwind CSS</b> that calculates monthly payments, total interest, and total payments based on the loan amount, duration, and interest rate. It includes language options (English, French, Arabic) and currency options (USD, EUR, MAD) with an intuitive interface for a smooth user experience.",
+              "tags": [
+                "Loan",
+                "Calculator",
+                "React.js",
+                "Tailwind CSS",
+                "Finance"
+              ]
+            },
+
+            "fr": {
+              "title": "LoanCalculator",
+              "text": "Une application responsive développée avec <b>React.js</b> et <b>Tailwind CSS</b> permettant de calculer les mensualités, les intérêts totaux et les paiements totaux selon le montant du prêt, la durée et le taux d'intérêt. Elle inclut des options de langue (anglais, français, arabe) et de devise (USD, EUR, MAD) avec une interface intuitive pour une expérience utilisateur fluide.",
+              "tags": [
+                "Prêt",
+                "Calculatrice",
+                "React.js",
+                "Tailwind CSS",
+                "Finance"
+              ]
+            }
+          }
+        },
+
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-1.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/MoneyManager.git"
+            }
+          ],
+
+          "media": {
+            "screenshots": {
+              "images": []
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "MoneyManager",
+              "text": "A web application designed to help users manage their personal finances effectively. It allows users to track income, expenses, and transactions, request loans, and securely close their accounts.",
+              "tags": [
+                "Finance",
+                "Personal Finance",
+                "Income",
+                "Expenses",
+                "Loans"
+              ]
+            },
+
+            "fr": {
+              "title": "MoneyManager",
+              "text": "Une application web conçue pour aider les utilisateurs à gérer efficacement leurs finances personnelles. Elle permet de suivre les revenus, dépenses et transactions, de demander des prêts et de clôturer leurs comptes en toute sécurité.",
+              "tags": [
+                "Finance",
+                "Finance personnelle",
+                "Revenus",
+                "Dépenses",
+                "Prêts"
+              ]
+            }
+          }
+        },
+
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-04.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/Roll-Dice-Game.git"
+            }
+          ],
+
+          "media": {
+            "screenshots": {
+              "images": []
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Pig Game",
+              "text": "A dynamic web dice game where two players compete to reach 20 points. Features include accumulating points, resetting the score when a '1' is rolled, and dynamic background color changes. Developed with HTML, CSS, and JavaScript.",
+              "tags": ["Game", "Dice", "HTML", "CSS", "JavaScript"]
+            },
+
+            "fr": {
+              "title": "Pig Game",
+              "text": "Un jeu de dés web dynamique où deux joueurs s'affrontent pour atteindre 20 points. Les fonctionnalités incluent l'accumulation de points, la réinitialisation du score en cas de lancer d’un '1', et des changements dynamiques de couleur d'arrière-plan. Développé avec HTML, CSS et JavaScript.",
+              "tags": ["Jeu", "Dés", "HTML", "CSS", "JavaScript"]
+            }
+          }
+        },
+
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/project-logo-05.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/Library-Management-System.git"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "LMS",
+              "text": "Efficiently manage your library's resources with ease.",
+              "tags": [
+                "Library",
+                "Management",
+                "Web Application",
+                "PHP",
+                "MySQL"
+              ]
+            },
+
+            "fr": {
+              "title": "Système de Gestion de Bibliothèque",
+              "text": "Gérez efficacement les ressources de votre bibliothèque.",
+              "tags": [
+                "Bibliothèque",
+                "Gestion",
+                "Application Web",
+                "PHP",
+                "MySQL"
+              ]
+            }
+          }
+        },
+
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/project-logo-06.png",
+            "fa": "",
+            "faColors": { "bg": "#111", "fill": "#EEE" }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/youtube-clone.git"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": "",
+            "screenshots": {
+              "images": []
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "YouTube Clone ",
+              "text": "A web-based platform that mimics basic functionalities of YouTube, built using HTML, CSS (Tailwind CSS), and JavaScript for a responsive and interactive video-sharing experience.",
+              "tags": [
+                "YouTube Clone",
+                "Video Sharing",
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            },
+
+            "fr": {
+              "title": "Clone de YouTube 🎥",
+              "text": "Une plateforme web qui imite les fonctionnalités de base de YouTube, construite avec HTML, CSS (Tailwind CSS) et JavaScript pour une expérience de partage de vidéos réactive et interactive.",
+              "tags": [
+                "Clone de YouTube",
+                "Partage de Vidéos",
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          }
+        },
+
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/project-logo-07.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/Travel-Wise.git"
+            }
+          ],
+          "media": {
+            "screenshots": {
+              "images": []
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "TravelWise ",
+              "text": "Explore the world with ease and discover new destinations. A web application designed to help travelers plan their trips efficiently with destination information, travel tips, and curated travel packages.",
+              "tags": [
+                "Travel",
+                "Destinations",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap"
+              ]
+            },
+
+            "fr": {
+              "title": "TravelWise ",
+              "text": "Explorez le monde facilement et découvrez de nouvelles destinations. Une application web conçue pour aider les voyageurs à planifier leurs voyages efficacement, avec des informations sur les destinations, des conseils de voyage et des forfaits de voyage sélectionnés.",
+              "tags": [
+                "Voyage",
+                "Destinations",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-08.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/Tailwind-Calculator.git"
+            }
+          ],
+          "media": {
+            "screenshots": {
+              "images": []
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Tailwind Calculator ",
+              "text": "Welcome to the Tailwind Calculator, a web-based tool for performing basic arithmetic operations. This project utilizes HTML, CSS (Tailwind CSS), and JavaScript to create an intuitive interface with responsive design, allowing users to perform calculations effortlessly.",
+              "tags": [
+                "Calculator",
+                "Tailwind CSS",
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            },
+
+            "fr": {
+              "title": "Calculatrice Tailwind ",
+              "text": "Bienvenue sur la Calculatrice Tailwind, un outil web pour effectuer des opérations arithmétiques de base. Ce projet utilise HTML, CSS (Tailwind CSS) et JavaScript pour créer une interface intuitive avec un design réactif, permettant aux utilisateurs d'effectuer des calculs sans effort.",
+              "tags": [
+                "Calculatrice",
+                "Tailwind CSS",
+                "HTML",
+                "CSS",
+                "JavaScript"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-09.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/GuessNumber.git"
+            }
+          ],
+          "media": {
+            "screenshots": {
+              "images": []
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Guess Number ",
+              "text": "Welcome to Guess My Number, an exciting web-based guessing game where players try to guess a random number between 1 and 20. The game is built using HTML, CSS (Tailwind CSS), and JavaScript, providing an enjoyable user experience with dynamic styling and seamless functionality.",
+              "tags": [
+                "Guessing Game",
+                "HTML",
+                "CSS",
+                "Tailwind CSS",
+                "JavaScript"
+              ]
+            },
+
+            "fr": {
+              "title": "Devine Numéro ",
+              "text": "Bienvenue dans Devine Mon Numéro, un jeu de devinette passionnant où les joueurs essaient de deviner un nombre aléatoire entre 1 et 20. Le jeu est construit avec HTML, CSS (Tailwind CSS) et JavaScript, offrant une expérience utilisateur agréable avec un style dynamique et une fonctionnalité fluide.",
+              "tags": [
+                "Jeu de Devinette",
+                "HTML",
+                "CSS",
+                "Tailwind CSS",
+                "JavaScript"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-10.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/ToDoApp.git"
+            }
+          ],
+          "media": {
+            "screenshots": {
+              "images": []
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "ToDo App",
+              "text": "The ToDo App is a simple yet powerful task manager that helps you organize your tasks and stay productive.",
+              "tags": [
+                "Task Manager",
+                "HTML",
+                "CSS",
+                "Tailwind CSS",
+                "JavaScript"
+              ]
+            },
+
+            "fr": {
+              "title": "Application ToDo",
+              "text": "L'application ToDo est un gestionnaire de tâches simple mais puissant qui vous aide à organiser vos tâches et à rester productif.",
+              "tags": [
+                "Gestionnaire de Tâches",
+                "HTML",
+                "CSS",
+                "Tailwind CSS",
+                "JavaScript"
+              ]
+            }
+          }
+        },
+
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/project-logo-11.png",
+            "fa": "",
+            "faColors": { "bg": "#007396", "fill": "#EEE" }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/ELHARCHAOUI-SIFEDDINE/meals-dining-app.git"
+            }
+          ],
+
+          "media": {
+            "screenshots": {
+              "images": []
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "GourmetDelish ",
+              "text": "Welcome to GourmetDelish, a web application dedicated to exploring and sharing gourmet dining experiences. This project is built using HTML, CSS, and JavaScript to provide a responsive and interactive platform for food enthusiasts.",
+              "tags": ["Gourmet", "Dining", "Food", "HTML", "CSS", "JavaScript"]
+            },
+
+            "fr": {
+              "title": "GourmetDelish ",
+              "text": "Bienvenue sur GourmetDelish, une application web dédiée à l'exploration et au partage d'expériences gastronomiques raffinées. Ce projet est construit avec HTML, CSS et JavaScript pour offrir une plateforme réactive et interactive pour les amateurs de cuisine.",
+              "tags": ["Gourmet", "Cuisine", "HTML", "CSS", "JavaScript"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

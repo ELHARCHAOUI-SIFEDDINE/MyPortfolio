@@ -1,0 +1,414 @@
+{
+  "locales": {
+    "en": {
+      "title": "Skills",
+      "title_long_prefix": "Explore",
+      "title_long": "My **Skill Set**"
+    },
+
+    "fr": {
+      "title": "Capacités",
+      "title_long_prefix": "Explorez",
+      "title_long": "Mes **Compétences**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "capabilities",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {},
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-table-columns",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Website** design",
+              "text": "I can bring your best ideas into life!"
+            },
+            "fr": {
+              "title": "Conception de **sites web**",
+              "text": "Je peux donner vie à vos meilleures idées !"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Database** management",
+              "text": "I can handle your data effectively!"
+            },
+            "fr": {
+              "title": "Gestion de **bases de données**",
+              "text": "Je peux gérer vos données efficacement !"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-mobile-screen-button",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**App** creation",
+              "text": "I can make creative and innovative apps!"
+            },
+            "fr": {
+              "title": "Création d'**applications**",
+              "text": "Je peux créer des applications créatives et innovantes !"
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-window-restore",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "REST **APIs**",
+              "text": "I can build API services!"
+            },
+            "fr": {
+              "title": "APIs **REST**",
+              "text": "Je peux créer des services API !"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "backend_programming",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Backend" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-java",
+            "faColors": { "bg": "#007396", "fill": "#EEE" }
+          },
+          "value": 45,
+          "dates": {
+            "start": "03/10/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "Java 11+",
+              "info": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-php",
+            "faColors": { "bg": "#FFD700", "fill": "#111" }
+          },
+          "value": 80,
+          "dates": {
+            "start": "09/01/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "PHP 8.0+",
+              "info": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-git",
+            "faColors": { "bg": "#F05032", "fill": "#111" }
+          },
+          "value": 90,
+          "dates": {
+            "start": "01/01/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "Git",
+              "info": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": "#4479A1", "fill": "#EEE" }
+          },
+          "value": 75,
+          "dates": {
+            "start": "10/10/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "MySQL",
+              "info": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-server",
+            "faColors": { "bg": "#47A248", "fill": "#EEE" }
+          },
+          "value": 85,
+          "dates": {
+            "start": "05/20/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "MongoDB",
+              "info": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-laravel",
+            "faColors": { "bg": "#FF2D20", "fill": "#FFF" }
+          },
+          "value": 80,
+          "dates": {
+            "start": "07/01/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "Laravel",
+              "info": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "front_end_programming",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Frontend" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-html5",
+            "faColors": { "bg": "#E34F26", "fill": "#EEE" }
+          },
+          "value": 100,
+          "dates": {
+            "start": "09/01/2018"
+          },
+          "locales": {
+            "en": {
+              "title": "HTML5",
+              "info": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-css3",
+            "faColors": { "bg": "#1572B6", "fill": "#EEE" }
+          },
+          "value": 75,
+          "dates": {
+            "start": "01/15/2019"
+          },
+          "locales": {
+            "en": {
+              "title": "CSS3",
+              "info": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-js",
+            "faColors": { "bg": "#F7DF1E", "fill": "#111" }
+          },
+          "value": 90,
+          "dates": {
+            "start": "03/10/2020"
+          },
+          "locales": {
+            "en": {
+              "title": "JavaScript ES6+",
+              "info": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-react",
+            "faColors": { "bg": "#61DAFB", "fill": "#111" }
+          },
+          "value": 90,
+          "dates": {
+            "start": "06/20/2020"
+          },
+          "locales": {
+            "en": {
+              "title": "React",
+              "info": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-bootstrap",
+            "faColors": { "bg": "#7952B3", "fill": "#EEE" }
+          },
+          "value": 70,
+          "dates": {
+            "start": "02/10/2021"
+          },
+          "locales": {
+            "en": {
+              "title": "Bootstrap",
+              "info": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-tailwindcss",
+            "faColors": { "bg": "#38B2AC", "fill": "#EEE" }
+          },
+          "value": 85,
+          "dates": {
+            "start": "09/01/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "Tailwind CSS",
+              "info": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Languages" },
+        "fr": { "title": "Langues" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": "images/flags/en.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "English",
+              "info": "Intermediate level (B1) with good communication skills.",
+              "tags": ["Intermediate"]
+            },
+            "fr": {
+              "title": "Anglais",
+              "info": "Niveau intermédiaire (B1) avec de bonnes compétences en communication.",
+              "tags": ["Intermédiaire"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/flags/fr.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "French",
+              "info": "Intermediate level (B1) with basic communication skills.",
+              "info": "Intermediate level (B1) avec des compétences de communication de base.",
+              "tags": ["Intermediate"]
+            },
+            "fr": {
+              "title": "Français",
+              "info": "Niveau intermédiaire (B1) avec des compétences de communication de base.",
+              "tags": ["Intermédiaire"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/flags/ar.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "Arabic",
+              "info": "Native speaker with excellent communication and writing skills.",
+              "tags": ["Native"]
+            },
+            "fr": {
+              "title": "Arabe",
+              "info": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
+              "tags": ["Natif"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/flags/ger.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "German",
+              "info": "Intermediate level (B1) with basic professional communication skills.",
+              "tags": ["Intermediate"]
+            },
+            "fr": {
+              "title": "Allemand",
+              "info": "Niveau intermédiaire (B1) avec des compétences de communication professionnelle de base.",
+              "tags": ["Intermédiaire"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "locales": {
+    "en": {
+      "title": "Education",
+      "title_long_prefix": "This is my",
+      "title_long": "**Educational** Background"
+    },
+
+    "fr": {
+      "title": "Éducation",
+      "title_long_prefix": "C'est mon",
+      "title_long": "**Contexte** Éducatif"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "academic",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+
+      "items": [
+        {
+          "icon": {
+            "img": "images/pictures/place-7.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "09/25/2021",
+            "end": "06/21/2022"
+          },
+          "locales": {
+            "en": {
+              "title": "Baccalaureate in **Science - Physics Option**",
+              "info": "High School",
+              "text": "Completed the Baccalaureate in Science with a specialization in Physics, studying core subjects like mechanics, thermodynamics, electromagnetism, and modern physics. Gained a strong foundation in scientific principles and problem-solving skills.",
+              "tags": ["Physics", "Mathematics", "Scientific Research"]
+            },
+
+            "fr": {
+              "title": "Baccalauréat en **Sciences - Option Physique**",
+              "info": "Lycée",
+              "text": "J'ai obtenu mon Baccalauréat en Sciences avec une spécialisation en Physique, en étudiant des matières essentielles comme la mécanique, la thermodynamique, l'électromagnétisme et la physique moderne. J'ai acquis une solide base en principes scientifiques et en résolution de problèmes.",
+              "tags": ["Physique", "Mathématiques", "Recherche Scientifique"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/place-6.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "09/09/2023",
+            "end": "20/06/2025"
+          },
+          "locales": {
+            "en": {
+              "title": "**Full-Stack Web Development**",
+              "info": "ISTA Khemisset",
+              "text": "Completed a 2-year intensive program in Full-Stack Web Development at ISTA Khemisset. Gained expertise in both frontend and backend development, learning technologies like HTML, CSS, JavaScript, PHP, and MySQL.",
+              "tags": [
+                "Frontend",
+                "Backend",
+                "Web Development",
+                "PHP",
+                "JavaScript",
+                "MySQL"
+              ]
+            },
+            "fr": {
+              "title": "**Développement Web Full-Stack**",
+              "info": "ISTA Khemisset",
+              "text": "J'ai suivi un programme intensif de 2 ans en Développement Web Full-Stack à l'ISTA Khemisset. J'ai acquis une expertise en développement frontend et backend, en apprenant des technologies comme HTML, CSS, JavaScript, PHP et MySQL.",
+              "tags": [
+                "Frontend",
+                "Backend",
+                "Développement Web",
+                "PHP",
+                "JavaScript",
+                "MySQL"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
